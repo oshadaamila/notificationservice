@@ -32,7 +32,7 @@ public class NotificationController {
     }
 
     @GetMapping
-    public List<Notification> findAllUsers() {
+    public List<Notification> findAllNotifications() {
         return (List<Notification>) notificationRepository.findAll();
     }
 }
